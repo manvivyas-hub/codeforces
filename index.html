@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetForces - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="brand-logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo-text"><span class="brand-leet">LEET</span><span class="brand-forces">FORCES</span></span>
+        </a>
+      </div>
+      <div class="user-nav">
+        <a href="#">Enter</a> | <a href="#">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN NAVIGATION TABS -->
+  <nav class="main-nav">
+    <div class="container nav-container">
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰ Menu</button>
+      <ul class="nav-tabs" id="navTabs">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li><a href="problemset.html">PROBLEMSET</a></li>
+        <li><a href="contests.html">CONTESTS</a></li>
+        <li><a href="problemset.html">TOP</a></li>
+        <li><a href="contests.html">GYM</a></li>
+        <li><a href="index.html">GROUPS</a></li>
+        <li><a href="problemset.html">RATING</a></li>
+        <li><a href="index.html">EDU</a></li>
+        <li><a href="contests.html">CALENDAR</a></li>
+        <li><a href="index.html">HELP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="container main-content">
+    
+    <!-- LEFT / PRIMARY COLUMN -->
+    <section class="primary-column">
+      
+      <!-- HERO ANNOUNCEMENT CARD -->
+      <article class="card announcement-card">
+        <h2 class="card-title">Welcome to LeetForces</h2>
+        <p class="post-meta">Posted by <a href="#" class="user-handle rank-master">Admin</a> on Aug 5, 2026</p>
+        <div class="card-body">
+          <p>LeetForces is your premier competitive programming hub combining algorithmic challenges, real-time contests, and comprehensive problem sets tailored for modern developers.</p>
+          <div class="tags">
+            <span class="tag">announcements</span>
+            <span class="tag">contests</span>
+            <span class="tag">updates</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- RECENT ANNOUNCEMENTS LIST -->
+      <article class="card">
+        <h3 class="card-title">Recent Contests & Announcements</h3>
+        <ul class="announcement-list">
+          <li>
+            <a href="contests.html" class="announcement-link">LeetForces Round 950 (Div. 2) System Testing Completed</a>
+            <span class="post-meta">2 hours ago</span>
+          </li>
+          <li>
+            <a href="contests.html" class="announcement-link">Educational LeetForces Round 168 [Rated for Div. 2]</a>
+            <span class="post-meta">Yesterday</span>
+          </li>
+          <li>
+            <a href="contests.html" class="announcement-link">LeetForces Global Round 28 Registration is Open!</a>
+            <span class="post-meta">3 days ago</span>
+          </li>
+        </ul>
+      </article>
+
+      <!-- PROBLEM SET TABLE PREVIEW -->
+      <article class="card table-card">
+        <h3 class="card-title">Top Trending Problems</h3>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Difficulty</th>
+                <th>Solved</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1900A</td>
+                <td><a href="problemset.html">Watermelon Split</a></td>
+                <td><span class="difficulty diff-easy">800</span></td>
+                <td>x45230</td>
+              </tr>
+              <tr>
+                <td>1900B</td>
+                <td><a href="problemset.html">Bitwise Array XOR</a></td>
+                <td><span class="difficulty diff-medium">1200</span></td>
+                <td>x21890</td>
+              </tr>
+              <tr>
+                <td>1900C</td>
+                <td><a href="problemset.html">Graph Shortest Path Query</a></td>
+                <td><span class="difficulty diff-hard">1700</span></td>
+                <td>x8420</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- RIGHT SIDEBAR -->
+    <aside class="sidebar-column">
+      
+      <!-- USER PROFILE BOX -->
+      <div class="card sidebar-card">
+        <h4 class="sidebar-title">User Search</h4>
+        <div class="search-box">
+          <input type="text" id="userSearch" placeholder="Handle (e.g. tourist)" />
+          <button type="button" id="searchBtn">Search</button>
+        </div>
+      </div>
+
+      <!-- UPCOMING CONTESTS SIDEBAR -->
+      <div class="card sidebar-card">
+        <h4 class="sidebar-title">Pay Attention</h4>
+        <div class="contest-item">
+          <strong>LeetForces Div. 3 Round</strong>
+          <p class="contest-time">Aug 8, 2026 - 20:35 UTC</p>
+          <a href="contests.html" class="btn-register">Register »</a>
+        </div>
+      </div>
+
+      <!-- TOP RATED USERS -->
+      <div class="card sidebar-card">
+        <h4 class="sidebar-title">Top Rated</h4>
+        <ol class="top-rated-list">
+          <li><a href="#" class="user-handle rank-legendary">tourist</a> <span class="rating">3850</span></li>
+          <li><a href="#" class="user-handle rank-legendary">jiangly</a> <span class="rating">3780</span></li>
+          <li><a href="#" class="user-handle rank-grandmaster">Benq</a> <span class="rating">3520</span></li>
+          <li><a href="#" class="user-handle rank-grandmaster">Radewoosh</a> <span class="rating">3490</span></li>
+        </ol>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p><a href="index.html" class="footer-logo">LeetForces</a> &copy; Competitive platform.</p>
+      <p class="footer-links">
+        <a href="index.html">Home</a> | 
+        <a href="problemset.html">Problemset</a> | 
+        <a href="contests.html">Contests</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

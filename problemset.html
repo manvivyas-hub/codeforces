@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetForces - Problemset</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="brand-logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo-text"><span class="brand-leet">LEET</span><span class="brand-forces">FORCES</span></span>
+        </a>
+      </div>
+      <div class="user-nav">
+        <a href="#">Enter</a> | <a href="#">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN NAVIGATION TABS -->
+  <nav class="main-nav">
+    <div class="container nav-container">
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰ Menu</button>
+      <ul class="nav-tabs" id="navTabs">
+        <li><a href="index.html">HOME</a></li>
+        <li class="active"><a href="problemset.html">PROBLEMSET</a></li>
+        <li><a href="contests.html">CONTESTS</a></li>
+        <li><a href="problemset.html">TOP</a></li>
+        <li><a href="contests.html">GYM</a></li>
+        <li><a href="index.html">GROUPS</a></li>
+        <li><a href="problemset.html">RATING</a></li>
+        <li><a href="index.html">EDU</a></li>
+        <li><a href="contests.html">CALENDAR</a></li>
+        <li><a href="index.html">HELP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="container main-content">
+    
+    <!-- LEFT / PRIMARY COLUMN -->
+    <section class="primary-column">
+      <article class="card table-card">
+        <h2 class="card-title">Problem Archive</h2>
+        <p class="post-meta">Filter problems by tag, difficulty rating, or title.</p>
+        
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Tags</th>
+                <th>Difficulty</th>
+                <th>Solved</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2001A</td>
+                <td><a href="#">Make it Equal</a></td>
+                <td><span class="tag">implementation</span><span class="tag">greedy</span></td>
+                <td><span class="difficulty diff-easy">800</span></td>
+                <td>x58210</td>
+              </tr>
+              <tr>
+                <td>2001B</td>
+                <td><a href="#">Minimize Equal Steps</a></td>
+                <td><span class="tag">constructive algorithms</span></td>
+                <td><span class="difficulty diff-easy">1000</span></td>
+                <td>x34120</td>
+              </tr>
+              <tr>
+                <td>2001C</td>
+                <td><a href="#">Tree Reconstruction Query</a></td>
+                <td><span class="tag">trees</span><span class="tag">dfs and similar</span></td>
+                <td><span class="difficulty diff-medium">1400</span></td>
+                <td>x16200</td>
+              </tr>
+              <tr>
+                <td>2001D</td>
+                <td><a href="#">Longest Max Subsequence</a></td>
+                <td><span class="tag">data structures</span><span class="tag">greedy</span></td>
+                <td><span class="difficulty diff-hard">1900</span></td>
+                <td>x5430</td>
+              </tr>
+              <tr>
+                <td>2001E</td>
+                <td><a href="#">Dynamic Path Combinatorics</a></td>
+                <td><span class="tag">dp</span><span class="tag">math</span><span class="tag">trees</span></td>
+                <td><span class="difficulty diff-hard">2300</span></td>
+                <td>x1280</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <!-- RIGHT SIDEBAR -->
+    <aside class="sidebar-column">
+      <div class="card sidebar-card">
+        <h4 class="sidebar-title">Filter Problems</h4>
+        <div class="search-box" style="flex-direction: column;">
+          <input type="text" placeholder="Tag (e.g. dp, trees)" style="margin-bottom: 8px;" />
+          <input type="text" placeholder="Min Rating (e.g. 800)" style="margin-bottom: 8px;" />
+          <input type="text" placeholder="Max Rating (e.g. 2000)" style="margin-bottom: 8px;" />
+          <button type="button" style="width: 100%;">Apply Filter</button>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p><a href="index.html" class="footer-logo">LeetForces</a> &copy; Competitive platform.</p>
+      <p class="footer-links">
+        <a href="index.html">Home</a> | 
+        <a href="problemset.html">Problemset</a> | 
+        <a href="contests.html">Contests</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
