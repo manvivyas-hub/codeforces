@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetForces - Gym Training</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="brand-logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo-text"><span class="brand-leet">LEET</span><span class="brand-forces">FORCES</span></span>
+        </a>
+      </div>
+      <div class="user-nav">
+        <a href="#">Enter</a> | <a href="#">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container nav-container">
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰ Menu</button>
+      <ul class="nav-tabs" id="navTabs">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="problemset.html">PROBLEMSET</a></li>
+        <li><a href="contests.html">CONTESTS</a></li>
+        <li><a href="top.html">TOP</a></li>
+        <li class="active"><a href="gym.html">GYM</a></li>
+        <li><a href="groups.html">GROUPS</a></li>
+        <li><a href="rating.html">RATING</a></li>
+        <li><a href="edu.html">EDU</a></li>
+        <li><a href="calendar.html">CALENDAR</a></li>
+        <li><a href="help.html">HELP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container main-content">
+    <section class="primary-column">
+      <article class="card table-card">
+        <h2 class="card-title">Gym Practice Contests</h2>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Contest Name</th>
+                <th>Difficulty</th>
+                <th>Duration</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2025-2026 ICPC Regional Finals Practice</td>
+                <td><span class="difficulty diff-hard">Hard</span></td>
+                <td>05:00</td>
+                <td><a href="#" class="btn-register">Start Virtual »</a></td>
+              </tr>
+              <tr>
+                <td>University Programming League 2026</td>
+                <td><span class="difficulty diff-medium">Medium</span></td>
+                <td>04:00</td>
+                <td><a href="#" class="btn-register">Start Virtual »</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <aside class="sidebar-column">
+      <div class="card sidebar-card">
+        <h4 class="sidebar-title">What is Gym?</h4>
+        <p style="font-size: 12px; color: var(--text-muted);">Gym contains unofficial community-hosted contests, ICPC regional archives, and custom training sets for team practice.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p><a href="index.html" class="footer-logo">LeetForces</a> &copy; 2026. Codeforces-inspired competitive platform.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetForces - Rating System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="brand-logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo-text"><span class="brand-leet">LEET</span><span class="brand-forces">FORCES</span></span>
+        </a>
+      </div>
+      <div class="user-nav">
+        <a href="#">Enter</a> | <a href="#">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container nav-container">
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰ Menu</button>
+      <ul class="nav-tabs" id="navTabs">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="problemset.html">PROBLEMSET</a></li>
+        <li><a href="contests.html">CONTESTS</a></li>
+        <li><a href="top.html">TOP</a></li>
+        <li><a href="gym.html">GYM</a></li>
+        <li><a href="groups.html">GROUPS</a></li>
+        <li class="active"><a href="rating.html">RATING</a></li>
+        <li><a href="edu.html">EDU</a></li>
+        <li><a href="calendar.html">CALENDAR</a></li>
+        <li><a href="help.html">HELP</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container main-content">
+    <section class="primary-column">
+      <article class="card">
+        <h2 class="card-title">Rating Tiers & Colors</h2>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Rating Band</th>
+                <th>Title Rank</th>
+                <th>Color Badge</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>3000+</td><td>Legendary Grandmaster</td><td><span style="color:red; font-weight:bold;">Red</span></td></tr>
+              <tr><td>2400 – 2999</td><td>Grandmaster</td><td><span style="color:red; font-weight:bold;">Red</span></td></tr>
+              <tr><td>2100 – 2399</td><td>Master</td><td><span style="color:orange; font-weight:bold;">Orange</span></td></tr>
+              <tr><td>1900 – 2099</td><td>Candidate Master</td><td><span style="color:purple; font-weight:bold;">Purple</span></td></tr>
+              <tr><td>1600 – 1899</td><td>Expert</td><td><span style="color:blue; font-weight:bold;">Blue</span></td></tr>
+              <tr><td>1400 – 1599</td><td>Specialist</td><td><span style="color:cyan; font-weight:bold;">Cyan</span></td></tr>
+              <tr><td>1200 – 1399</td><td>Pupil</td><td><span style="color:green; font-weight:bold;">Green</span></td></tr>
+              <tr><td>&lt; 1200</td><td>Newbie</td><td><span style="color:gray; font-weight:bold;">Gray</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <aside class="sidebar-column">
+      <div class="card sidebar-card">
+        <h4 class="sidebar-title">Rating Calculation</h4>
+        <p style="font-size: 12px; color: var(--text-muted);">Ratings are recalculated after each official contest using an Elo-inspired placement formula based on expected vs actual rank.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p><a href="index.html" class="footer-logo">LeetForces</a> &copy; 2026. Codeforces-inspired competitive platform.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
